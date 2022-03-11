@@ -63,7 +63,7 @@ const config = {
             title: 'URLR',
             items: [
               {
-                label: 'Website',
+                label: 'Site web',
                 href: 'https://urlr.me',
               },
             ],
