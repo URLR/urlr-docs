@@ -90,7 +90,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} URLR. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} URLR. Construit avec Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
