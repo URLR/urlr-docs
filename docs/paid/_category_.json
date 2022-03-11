@@ -1,0 +1,10 @@
+{
+  "position": 1.5,
+  "label": "Fonctionnalités Premium",
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "fonctionnalites-premium"
+  }
+}

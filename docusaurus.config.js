@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'URLR',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Reliable and innovative link shortener.',
+  url: 'https://docs.urlr.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -51,9 +51,9 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {
-            type: 'localeDropdown',
-          },
+          // {
+          //   type: 'localeDropdown',
+          // },
         ],
       },
       footer: {
@@ -72,6 +72,18 @@ const config = {
             title: 'Social',
             items: [
               {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/urlr',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/URLRME',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/urlrme',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/URLR/URLR',
               },
@@ -87,7 +99,7 @@ const config = {
     }),
     i18n: {
       defaultLocale: 'fr',
-      locales: ['fr', 'en'],
+      locales: ['fr'],
     },
 };
 
