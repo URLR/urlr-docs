@@ -13,6 +13,10 @@ Utiliser un domaine personnalisé pour vos liens réduits permet d'améliorer vo
 - Avoir créé une équipe dans votre tableau de bord URLR
 - Avoir créé un dossier dans l'espace des liens URLR
 
+#### Important
+
+Le domaine choisi doit être réservé à l'utilisation d'URLR. C'est pourquoi il peut-être utile parfois de créer un sous-domaine.
+
 ## Ajout du domaine sur URLR
 
 Pour les besoins de ce guide, nous allons vouloir configurer le domaine **r.votre-domaine.fr**.
