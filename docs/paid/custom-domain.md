@@ -55,6 +55,9 @@ Cette activation est généralement réalisée sous 1h et au maximum sous 12h.
 
 <img src="/img/docs/custom-domain/custom-domain-validation2.png" width="500" />
 
+#### Note
+
+Nous nous occupons de générer un certificat SSL pour votre domaine. Il est donc possible que vous voyez temporairement un avertissement de votre navigateur lorsque celui-ci n'a pas encore été généré. Pas de panique, il vous suffit d'attendre quelques minutes.
 ## Assignation du domaine à un dossier
 
 Enfin, afin de pouvoir réduire des liens en utilisant votre domaine, il est nécessaire de l'assigner à un (ou plusieurs) dossiers. Rendez-vous dans le dossier de votre choix, cliquez sur **Domaine personnalisé** et choisissez votre domaine précédemment configuré.
