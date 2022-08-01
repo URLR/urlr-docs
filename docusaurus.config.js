@@ -51,9 +51,9 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          // {
-          //   type: 'localeDropdown',
-          // },
+          {
+            type: 'localeDropdown',
+          },
         ],
       },
       footer: {
@@ -99,7 +99,7 @@ const config = {
     }),
     i18n: {
       defaultLocale: 'fr',
-      locales: ['fr'],
+      locales: ['fr', 'en'],
     },
 };
 

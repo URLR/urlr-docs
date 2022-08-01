@@ -11,7 +11,7 @@ Utiliser un domaine personnalisé pour vos liens réduits permet d'améliorer vo
 
 - Être en possession d'un domaine (un sous-domaine fonctionne également)
 - Avoir créé une équipe dans votre tableau de bord URLR
-- Avoir créé un dossier dans l'espace des liens URLR
+- Avoir créé un dossier dans l'espace dédié aux liens de votre équipe URLR
 
 #### Important
 
@@ -47,7 +47,7 @@ Si vous ne souhaitez pas utiliser de sous-domaine supplémentaire, laissez simpl
 
 <img src="/img/docs/custom-domain/dns-cname-ovh.png" width="500" />
 
-## Activation de notre équipe
+## Activation par notre équipe
 
 Le domaine ne pourra être utilisé seulement lorsque la deuxième étape **Activation**, qui est une validation de notre côté (URLR), passera elle aussi du **rouge** au **vert**.
 
@@ -58,6 +58,7 @@ Cette activation est généralement réalisée sous 1h et au maximum sous 12h.
 #### Note
 
 Nous nous occupons de générer un certificat SSL pour votre domaine. Il est donc possible que vous voyez temporairement un avertissement de votre navigateur lorsque celui-ci n'a pas encore été généré. Pas de panique, il vous suffit d'attendre quelques minutes.
+
 ## Assignation du domaine à un dossier
 
 Enfin, afin de pouvoir réduire des liens en utilisant votre domaine, il est nécessaire de l'assigner à un (ou plusieurs) dossiers. Rendez-vous dans le dossier de votre choix, cliquez sur **Domaine personnalisé** et choisissez votre domaine précédemment configuré.
@@ -66,7 +67,7 @@ Enfin, afin de pouvoir réduire des liens en utilisant votre domaine, il est né
 
 ## Utilisation pour réduire un lien
 
-Maintenant que tout est en place, il vous suffit de **sélectionner le dossier** auquel votre domaine est associé lorsque vous souhaitez réduire un lien.
+Maintenant que tout est en place, il vous suffit de **sélectionner le dossier** associé à votre domaine lorsque vous souhaitez réduire un lien.
 
 <img src="/img/docs/custom-domain/custom-domain-shortening.png" width="500" />
 
