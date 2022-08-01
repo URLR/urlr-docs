@@ -1,5 +1,5 @@
 ---
-slug: /paid/custom-domain
+slug: /paid-features/custom-domain
 sidebar_position: 2
 ---
 
