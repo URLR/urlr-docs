@@ -3,8 +3,8 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.mySidebar.category.Fonctionnalités Premium": {
+  "sidebar.mySidebar.category.Fonctionnalités premium": {
     "message": "Premium features",
-    "description": "The label for category Fonctionnalités Premium in sidebar mySidebar"
+    "description": "The label for category Fonctionnalités premium in sidebar mySidebar"
   }
 }
