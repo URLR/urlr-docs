@@ -1,5 +1,5 @@
 ---
-slug: /fonctionnalites-premium/file-import
+slug: /paid-features/file-import
 sidebar_position: 3
 ---
 
