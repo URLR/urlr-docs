@@ -1,0 +1,48 @@
+---
+slug: /fonctionnalites-premium/import-fichier
+sidebar_position: 3
+---
+
+# Réaliser un import de liens par fichier
+
+Afin de réduire des liens en masse, nous proposons un système d'import par fichier.
+
+Cette fonctionnalité est accessible depuis un **dossier préalablement créé**.
+
+## Pré-requis
+
+Ce fichier doit respecter certaines règles pour fonctionner correctement :
+
+- Utiliser le format CSV
+- Être encodé en UTF-8 sans BOM
+- Ne pas contenir d'en-têtes
+- Contenir un lien par ligne
+- 10 000 liens maximum par fichier
+- Utiliser un des caractères délimiteur pris en charge
+
+## Caractère délimiteur
+
+Les colonnes d'un fichier CSV sont délimitées par un caractère délimiteur.
+Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez la possibilité de le spécifier dans l'interface :
+
+<img src="/img/docs/import/delimiter.png" width="500" />
+
+## Import avec options avancées
+
+Il est également possible de spécifier des options aux liens dans ce fichier comme vous pourriez le faire sur l'interface (mot de passe, code personnalisé, ...).
+
+Ces options doivent être spécifiées dans les colonnes suivant les liens et respecter cette ordre :
+
+1. url
+2. date d'expiration
+3. mot de passe
+4. code personnalisé
+5. label
+
+## Fichier d'exemple
+
+Voici un fichier CSV que vous pouvez utiliser comme base pour réaliser votre import CSV :
+
+[import_example.csv](/csv/import/import_example.csv)
+
+Si un import échoue, vous retrouverez le détails des erreurs avec les numéros de lignes impactés.

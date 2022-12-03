@@ -63,7 +63,7 @@ Nous nous occupons de générer un certificat SSL pour votre domaine. Il est don
 
 Enfin, afin de pouvoir réduire des liens en utilisant votre domaine, il est nécessaire de l'assigner à un (ou plusieurs) dossiers. Rendez-vous dans le dossier de votre choix, cliquez sur **Domaine personnalisé** et choisissez votre domaine précédemment configuré.
 
-<img src="/img/docs/custom-domain/custom-domaine-folder.png" width="500" />
+<img src="/img/docs/custom-domain/custom-domain-folder.png" width="500" />
 
 ## Utilisation pour réduire un lien
 
