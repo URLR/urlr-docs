@@ -39,10 +39,10 @@ These options must be specified in the columns following the links and respect t
 4. custom code
 5. label
 
-## Example file
+## Sample file
 
 Here is a CSV file that you can use as a basis for your CSV import:
 
-[import_example.csv](/csv/import/import_example.csv)
+[sample-import.csv](/csv/import/sample-import.csv)
 
 If an import fails, you will find the details of the errors with the impacted line numbers.

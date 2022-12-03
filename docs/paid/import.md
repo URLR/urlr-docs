@@ -43,6 +43,6 @@ Ces options doivent être spécifiées dans les colonnes suivant les liens et re
 
 Voici un fichier CSV que vous pouvez utiliser comme base pour réaliser votre import CSV :
 
-[import_example.csv](/csv/import/import_example.csv)
+[sample-import.csv](/csv/import/sample-import.csv)
 
 Si un import échoue, vous retrouverez le détails des erreurs avec les numéros de lignes impactés.
