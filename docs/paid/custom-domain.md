@@ -47,6 +47,14 @@ Si vous ne souhaitez pas utiliser de sous-domaine supplémentaire, laissez simpl
 
 <img src="/img/docs/custom-domain/dns-cname-ovh.png" width="500" />
 
+### Méthode alternative
+
+Si vous ne pouvez pas ajouter d'entrée CNAME sur votre domaine, vous pouvez alors plutôt ajouter ces quatre entrées A :
+- 185.42.117.108
+- 185.42.117.109
+- 46.252.181.103
+- 46.252.181.103
+
 ## Activation par notre équipe
 
 Le domaine ne pourra être utilisé seulement lorsque la deuxième étape **Activation**, qui est une validation de notre côté (URLR), passera elle aussi du **rouge** au **vert**.
