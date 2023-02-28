@@ -73,7 +73,7 @@ Enfin, afin de pouvoir réduire des liens en utilisant votre domaine, il est né
 
 <img src="/img/docs/custom-domain/custom-domain-folder.png" width="500" />
 
-## Utilisation pour réduire un lien
+## Utiliser le domaine pour réduire un lien
 
 Maintenant que tout est en place, il vous suffit de **sélectionner le dossier** associé à votre domaine lorsque vous souhaitez réduire un lien.
 

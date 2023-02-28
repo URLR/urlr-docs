@@ -73,9 +73,9 @@ Finally, in order to be able to reduce links using your domain, it is necessary 
 
 <img src="/img/docs/custom-domain/custom-domain-folder.png" width="500" />
 
-## Using to collapse a link
+## Using the domain to shorten a link
 
-Now that everything is in place, all you have to do is to **select the folder** associated with your domain when you want to collapse a link.
+Now that everything is in place, all you have to do is to **select the folder** associated with your domain when you want to shorten a link.
 
 <img src="/img/docs/custom-domain/custom-domain-shortening.png" width="500" />
 
