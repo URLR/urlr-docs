@@ -53,7 +53,7 @@ If you can't add a CNAME entry on your domain, then you can add these four A ent
 - 185.42.117.108
 - 185.42.117.109
 - 46.252.181.103
-- 46.252.181.103
+- 46.252.181.104
 
 ## Activating by our team
 

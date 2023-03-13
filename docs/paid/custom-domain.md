@@ -53,7 +53,7 @@ Si vous ne pouvez pas ajouter d'entrée CNAME sur votre domaine, vous pouvez alo
 - 185.42.117.108
 - 185.42.117.109
 - 46.252.181.103
-- 46.252.181.103
+- 46.252.181.104
 
 ## Activation par notre équipe
 
