@@ -6,7 +6,7 @@ sidebar_position: 4
 # Webhooks
 
 Vous avez la possibilité de vous abonner à des webhooks à partir de vos dossiers.
-Les webhooks permettent de recevoir une information suite à un événement se produisant à parti de votre compte URLR.
+Les webhooks permettent de recevoir une information suite à un événement se produisant à partir de votre compte URLR.
 
 ## Événements disponibles
 
