@@ -95,6 +95,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['php']
       },
     }),
     i18n: {
