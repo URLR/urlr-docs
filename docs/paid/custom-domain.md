@@ -5,23 +5,32 @@ sidebar_position: 2
 
 # Configurer un domaine personnalisé
 
-Utiliser un domaine personnalisé pour vos liens réduits permet d'améliorer votre image de marque en partageant des liens facilement identifiables par votre cible.
+Utiliser un domaine personnalisé pour réduire vos liens permet d'améliorer votre image de marque en partageant des liens facilement identifiables par vos utilisateurs.
 
 ## Pré-requis
 
-- Être en possession d'un domaine (un sous-domaine fonctionne également)
-- Avoir créé une équipe dans votre tableau de bord URLR
-- Avoir créé un dossier dans l'espace dédié aux liens de votre équipe URLR
+- Être en mesure d'obtenir un domaine ou un sous-domaine dédié
+- Avoir créé une équipe au sein de votre compte URLR
 
-#### Important
+:::warning
 
-Le domaine choisi doit être réservé à l'utilisation d'URLR. C'est pourquoi il peut-être utile parfois de créer un sous-domaine.
+Le domaine personnalisé que vous choisissez doit être spécifiquement réservé à l'utilisation d'URLR. La démarche la plus pratique consiste à sélectionner un sous-domaine de votre site web existant. N'hésitez pas à partager cette documentation avec la personne capable d'effectuer ces démarches si vous n'êtes pas la personne en charge.
 
-## Ajout du domaine sur URLR
+:::
 
-Pour les besoins de ce guide, nous allons vouloir configurer le domaine **r.votre-domaine.fr**.
+Tout au long de ce guide, nous allons considérer que notre site web est **mon-domaine.fr**.
 
-Commençons par l'ajouter dans votre espace d'équipe. Accéder à la section **Domaines personnalisés** de votre équipe, cliquez sur **Ajouter un domaine** et enfin renseignez votre domaine.
+Afin de réduire nos liens avec un domaine personnalisé sans achat supplémentaire, nous allons configurer le sous-domaine **l.mon-domaine.fr**.
+
+:::info
+
+Nous choisissons la lettre **l** comme sous-domaine dans cet exemple comme raccourci du mot **liens**.
+
+:::
+
+## Ajout du domaine sur URLR    
+
+Commençons par l'ajouter dans votre équipe. Accéder à la section **Domaines personnalisés** de votre équipe, cliquez sur **Ajouter un domaine** et enfin renseignez votre domaine.
 
 <img src="/img/docs/custom-domain/custom-domain.png" width="500" />
 
@@ -29,56 +38,64 @@ Commençons par l'ajouter dans votre espace d'équipe. Accéder à la section **
 
 Pour que votre domaine soit relié à URLR, il est nécessaire de créer une entrée CNAME dans la zone DNS de celui-ci.
 
-Voici l'entrée correspondante: `r.votre-domaine.fr. CNAME urlr.me.` Veuillez notez la présence du point à la suite du nom de domaine.
+Voici l'entrée correspondante: 
 
-Pour ajouter cette entrée, vous pouvez vous appuyez sur les exemples ci-dessous en fonction de votre fournisseur de domaine.
+```
+l.mon-domaine.fr. CNAME urlr.me.
+```
 
-#### Note
+Veuillez notez la présence du point à la suite du nom de domaine.
 
-La modification de la zone peut prendre jusqu'à 48h pour être déployée.
+:::info
+
+Le processus de propagation suite à la modification de vos DNS peut prendre jusqu'à 24h.
 La réussite de cette opération sera signifiée dans votre tableau de bord lorsque l'étape CNAME passera du **rouge** au **vert**.
 
-<img src="/img/docs/custom-domain/custom-domain-validation.png" width="500" />
+:::
+
+Vous trouverez comment effectuer cette opération avec quelques fournisseurs de domaine ci-dessous.
 
 ### OVH
 
 Rendez-vous dans la section **Zone DNS** de votre domaine et cliquez sur le bouton **Ajouter une entrée**.
-Si vous ne souhaitez pas utiliser de sous-domaine supplémentaire, laissez simplement le champ "sous-domaine" vide.
+
+Si vous ne configurez pas un sous-domaine, laissez simplement le premier champ vide.
 
 <img src="/img/docs/custom-domain/dns-cname-ovh.png" width="500" />
 
 ### Méthode alternative
 
-Si vous ne pouvez pas ajouter d'entrée CNAME sur votre domaine, vous pouvez alors plutôt ajouter ces quatre entrées A :
+Si vous ne pouvez pas ajouter d'entrée CNAME sur votre domaine, vous pouvez alors plutôt ajouter ces quatre entrées de type A :
+
 - 185.42.117.108
 - 185.42.117.109
 - 46.252.181.103
 - 46.252.181.104
 
-## Activation par notre équipe
+## Activation
 
-Le domaine ne pourra être utilisé seulement lorsque la deuxième étape **Activation**, qui est une validation de notre côté (URLR), passera elle aussi du **rouge** au **vert**.
+Dès la propagation DNS effectuée, vous pourrez déjà utiliser votre propre domaine personnalisé. Nous vous conseillons tout de même d’attendre l'étape de la génération du certificat SSL pour bénéficier du HTTPS.
 
-Cette activation est généralement réalisée sous 1h et au maximum sous 12h.
+:::info
 
-<img src="/img/docs/custom-domain/custom-domain-validation2.png" width="500" />
+Il est possible que vous voyez temporairement un avertissement de votre navigateur en visitant vos liens réduits lorsque le certificat n'a pas encore été généré.
 
-#### Note
+:::
 
-Nous nous occupons de générer un certificat SSL pour votre domaine. Il est donc possible que vous voyez temporairement un avertissement de votre navigateur lorsque celui-ci n'a pas encore été généré. Pas de panique, il vous suffit d'attendre quelques minutes.
+<img src="/img/docs/custom-domain/custom-domain-validation.png" width="500" />
 
 ## Assignation du domaine à un dossier
 
-Enfin, afin de pouvoir réduire des liens en utilisant votre domaine, il est nécessaire de l'assigner à un (ou plusieurs) dossiers. Rendez-vous dans le dossier de votre choix, cliquez sur **Domaine personnalisé** et choisissez votre domaine précédemment configuré.
+Afin de pouvoir réduire des liens en utilisant votre domaine, il est nécessaire de l'assigner à un (ou plusieurs) dossiers. Rendez-vous dans le dossier de votre choix, cliquez sur **Domaine personnalisé** et choisissez votre domaine précédemment configuré.
 
 <img src="/img/docs/custom-domain/custom-domain-folder.png" width="500" />
 
 ## Utiliser le domaine pour réduire un lien
 
-Maintenant que tout est en place, il vous suffit de **sélectionner le dossier** associé à votre domaine lorsque vous souhaitez réduire un lien.
+Maintenant que tout est en place, il vous suffit de **sélectionner le dossier** associé à votre domaine lorsque vous souhaitez réduire un lien depuis la page d'accueil.
 
-<img src="/img/docs/custom-domain/custom-domain-shortening.png" width="500" />
+<img src="/img/docs/custom-domain/custom-domain-shortening.png" width="1000" />
 
-Et voilà le résultat !
+Réduisez votre lien... et voilà le résultat !
 
 <img src="/img/docs/custom-domain/custom-domain-shorten.png" width="500" />
