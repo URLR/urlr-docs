@@ -65,12 +65,17 @@ Si vous ne configurez pas un sous-domaine, laissez simplement le premier champ v
 
 ### Méthode alternative
 
-Si vous ne pouvez pas ajouter d'entrée CNAME sur votre domaine, vous pouvez alors plutôt ajouter ces quatre entrées de type A :
+Si vous ne pouvez pas ajouter d'entrée CNAME sur votre domaine, vous pouvez alors plutôt ajouter ces entrées de type A :
 
-- 185.42.117.108
-- 185.42.117.109
 - 46.252.181.103
 - 46.252.181.104
+- 91.208.207.214
+- 91.208.207.215
+- 91.208.207.216
+- 91.208.207.217
+- 91.208.207.218
+- 185.42.117.108
+- 185.42.117.109
 
 ## Activation
 
