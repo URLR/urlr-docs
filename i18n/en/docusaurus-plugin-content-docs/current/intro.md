@@ -11,4 +11,4 @@ Our documentation is here to help you find the answers to your questions and giv
 
 If you can't find what you're looking for, you can also [contact us](https://urlr.me/en/contact).
 
-![URLR](/img/docs/urlr-en.png)
+![URLR](/img/docs/mockup_en.webp)
