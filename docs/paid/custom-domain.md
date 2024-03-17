@@ -18,6 +18,12 @@ Le domaine personnalisé que vous choisissez doit être spécifiquement réserv�
 
 :::
 
+## Quelques exemples de bons sous-domaines
+
+- **l.**
+- **go.**
+- **r.**
+
 Tout au long de ce guide, nous allons considérer que notre site web est **mon-domaine.fr**.
 
 Afin de réduire nos liens avec un domaine personnalisé sans achat supplémentaire, nous allons configurer le sous-domaine **l.mon-domaine.fr**.

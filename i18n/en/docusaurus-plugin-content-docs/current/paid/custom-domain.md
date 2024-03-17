@@ -18,6 +18,12 @@ The custom domain you choose must be specifically reserved for the use of URLR. 
 
 :::
 
+## Some examples of good subdomains
+
+- **l.**
+- **go.**
+- **r.**
+
 Throughout this guide, we will assume that our website is **mon-domaine.fr**.
 
 In order to shorten our links with a custom domain without any additional purchase, we are going to configure the sub-domain **l.mon-domaine.fr**.
