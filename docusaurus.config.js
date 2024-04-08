@@ -85,7 +85,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/URLR/URLR',
+                href: 'https://github.com/URLR',
               },
             ],
           },
