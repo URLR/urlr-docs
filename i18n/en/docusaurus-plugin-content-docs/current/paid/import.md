@@ -14,7 +14,6 @@ This functionality is accessible from a **previously created folder**.
 This file must respect certain rules to work correctly:
 
 - Use the CSV format
-- Be encoded in UTF-8 without BOM
 - Do not contain headers
 - Contain one link per line
 - 10 000 links maximum per file

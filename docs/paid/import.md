@@ -14,7 +14,6 @@ Cette fonctionnalité est accessible depuis un **dossier préalablement créé**
 Ce fichier doit respecter certaines règles pour fonctionner correctement :
 
 - Utiliser le format CSV
-- Être encodé en UTF-8 sans BOM
 - Ne pas contenir d'en-têtes
 - Contenir un lien par ligne
 - 10 000 liens maximum par fichier
