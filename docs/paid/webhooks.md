@@ -56,7 +56,13 @@ Pour cela, vous allez utiliser votre **clé secrète** que vous pouvez retrouver
 
 Le but est de générer une valeur de clé de hachage à partir du body, en utilisant la méthode HMAC, et de la comparer avec la signature reçue.
 
-Avec PHP, vous pourriez par exemple vérifier la signature de cette façon :
+:::info
+
+Encodez le body en JSON et échappez les slashs (/) pour obtenir un hmac valide.
+
+:::
+
+### PHP
 
 ```php
 <?php
@@ -67,5 +73,21 @@ function verifySignature(string $body, string $secretKey): bool {
     $computedSignature = hash_hmac('sha256', $body, $secretKey);
 
     return hash_equals($computedSignature, $signature);
+}
+```
+
+### JavaScript (Node.js)
+
+```js
+const crypto = require('crypto');
+
+function verifySignature(req, secretKey) {
+    const signature = req.headers['x-signature'];
+
+    const computedSignature = crypto.createHmac('sha256', secretKey)
+        .update(JSON.stringify(req.body).replace(/\//g, '\\/'))
+        .digest('hex');
+
+    return computedSignature === signature;
 }
 ```
