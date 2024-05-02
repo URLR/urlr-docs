@@ -47,6 +47,11 @@ Requête POST sur votre URL configurée sur URLR.
     "timestamp": 1697398126
 }
 ```
+:::info
+
+Les webhooks seront réessayés plusieurs fois avec un incrément de temps exponentiel si votre endpoint ne répond pas avec un code HTTP 2XX.
+
+:::
 
 ## Sécurisation
 

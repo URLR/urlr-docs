@@ -48,6 +48,12 @@ POST request to your URL set on URLR.
 }
 ```
 
+:::info
+
+Webhooks will be retried several times with an exponential time increment if your endpoint does not respond with an HTTP code in the range 2XX.
+
+:::
+
 ## Security
 
 It is important to ensure that the webhooks you receive are sent by URLR.
