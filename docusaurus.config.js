@@ -35,6 +35,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    'docusaurus-plugin-matomo',
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -96,6 +100,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ['php']
+      },
+      matomo: {
+        matomoUrl: 'https://app-14e6b143-1f29-4987-8e23-db120efbcad8.cleverapps.io/',
+        siteId: '3',
+        phpLoader: 'matomo.php',
+        jsLoader: 'matomo.js',
       },
     }),
     i18n: {
