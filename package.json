@@ -21,7 +21,8 @@
     "docusaurus-plugin-matomo": "^0.0.8",
     "prism-react-renderer": "^2.3.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "redocusaurus": "^2.0.2"
   },
   "browserslist": {
     "production": [

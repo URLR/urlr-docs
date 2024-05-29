@@ -33,6 +33,26 @@ const config = {
         blog: false,
       }),
     ],
+    // Redoc preset
+    [
+      "redocusaurus",
+      {
+        specs: [
+          {
+            spec: "https://urlr.me/openapi.yaml",
+            route: "/api-reference/v1/",
+          },
+          {
+            spec: "https://urlr.me/openapi-v0.yaml",
+            route: "/api-reference/v0/",
+          },
+        ],
+        theme: {
+          primaryColor: "#48aefa",
+          primaryColorDark: "#48aefa",
+        },
+      },
+    ],
   ],
 
   plugins: [
@@ -53,7 +73,22 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentation',
+            label: 'Guides',
+          },
+          {
+            type: 'dropdown',
+            label: 'API Reference',
+            position: 'left',
+            items: [
+              {
+                label: 'V1',
+                href: '/api-reference/v1/',
+              },
+              {
+                label: 'V0',
+                href: '/api-reference/v0/',
+              },
+            ],
           },
           {
             type: 'localeDropdown',
@@ -61,7 +96,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'URLR',
