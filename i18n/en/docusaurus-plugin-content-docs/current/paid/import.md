@@ -32,11 +32,13 @@ It is also possible to specify options to the links in this file as you could do
 
 These options must be specified in the columns following the links and respect this order:
 
-1. url
-2. expiration date
-3. password
-4. custom code
-5. label
+| Champ | Colonne | Format |
+|---|---|---|
+| url | 1 | string |
+| expiration date | 2 | ISO-8601 |
+| password | 3 | string |
+| custom code | 4 | string |
+| label | 5 | string |
 
 ## Sample file
 

@@ -30,13 +30,15 @@ Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez 
 
 Il est également possible de spécifier des options aux liens dans ce fichier comme vous pourriez le faire sur l'interface (mot de passe, code personnalisé, ...).
 
-Ces options doivent être spécifiées dans les colonnes suivant les liens et respecter cette ordre :
+Ces options doivent être spécifiées dans les colonnes suivant les liens et respecter cet ordre :
 
-1. url
-2. date d'expiration
-3. mot de passe
-4. code personnalisé
-5. label
+| Champ | Colonne | Format
+|---|---|---|
+| url | 1 | string |
+| date d'expiration | 2 | ISO-8601 |
+| mot de passe | 3 | string |
+| code personnalisé | 4 | string |
+| label | 5 | string |
 
 ## Fichier d'exemple
 
