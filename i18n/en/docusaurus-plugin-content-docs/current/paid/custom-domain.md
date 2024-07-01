@@ -73,15 +73,15 @@ If you're not setting up a subdomain, simply leave the first field blank.
 
 If you can't add a CNAME entry on your domain, then you can add these type A entries instead:
 
-- 46.252.181.103
-- 46.252.181.104
 - 91.208.207.214
 - 91.208.207.215
 - 91.208.207.216
 - 91.208.207.217
 - 91.208.207.218
-- 185.42.117.108
-- 185.42.117.109
+- 91.208.207.220
+- 91.208.207.221
+- 91.208.207.222
+- 91.208.207.223
 
 ## Activation
 
