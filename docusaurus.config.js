@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'URLR',
-  tagline: 'Reliable and innovative link shortener.',
+  title: 'Documentation | URLR',
+  tagline: 'European and GDPR-compliant link shortener 🇪🇺',
   url: 'https://docs.urlr.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
