@@ -42,10 +42,6 @@ const config = {
             spec: "https://urlr.me/openapi.yaml",
             route: "/api-reference/v1/",
           },
-          {
-            spec: "https://urlr.me/openapi-v0.yaml",
-            route: "/api-reference/v0/",
-          },
         ],
         theme: {
           primaryColor: "#48aefa",
@@ -83,10 +79,6 @@ const config = {
               {
                 label: 'V1',
                 href: '/api-reference/v1/',
-              },
-              {
-                label: 'V0',
-                href: '/api-reference/v0/',
               },
             ],
           },
