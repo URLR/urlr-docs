@@ -1,6 +1,5 @@
 ---
-slug: /fonctionnalites-premium/domaine-personnalise
-sidebar_position: 2
+slug: domaine-personnalise/config-domaine-personnalise
 ---
 
 # Configurer un domaine personnalisé

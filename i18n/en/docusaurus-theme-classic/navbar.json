@@ -6,5 +6,21 @@
   "item.label.Documentation": {
     "message": "Documentation",
     "description": "Navbar item with label Documentation"
+  },
+  "logo.alt": {
+    "message": "Réducteur de lien",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Guides": {
+    "message": "Guides",
+    "description": "Navbar item with label Guides"
+  },
+  "item.label.API Reference": {
+    "message": "API Reference",
+    "description": "Navbar item with label API Reference"
+  },
+  "item.label.V1": {
+    "message": "V1",
+    "description": "Navbar item with label V1"
   }
 }
