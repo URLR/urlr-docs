@@ -1,6 +1,5 @@
 ---
-slug: /fonctionnalites-premium/webhooks
-sidebar_position: 4
+slug: integrations/webhooks
 ---
 
 # Webhooks

@@ -1,6 +1,5 @@
 ---
-slug: /paid-features/file-import
-sidebar_position: 3
+slug: import/file-import
 ---
 
 # Importing links by file

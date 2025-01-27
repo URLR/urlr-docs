@@ -1,6 +1,5 @@
 ---
-slug: /paid-features/custom-domain
-sidebar_position: 2
+slug: custom-domain/config-custom-domain
 ---
 
 # Setting up a custom domain

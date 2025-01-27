@@ -1,6 +1,5 @@
 ---
-slug: /fonctionnalites-premium/import-fichier
-sidebar_position: 3
+slug: imports/import-lien
 ---
 
 # Réaliser un import de liens par fichier

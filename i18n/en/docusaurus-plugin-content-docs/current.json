@@ -3,8 +3,16 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.mySidebar.category.Fonctionnalités premium": {
-    "message": "Premium features",
-    "description": "The label for category Fonctionnalités premium in sidebar mySidebar"
+  "sidebar.mySidebar.category.Domaines personnalisés": {
+    "message": "Custom domains",
+    "description": "The label for category Domaines personnalisés in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Imports": {
+    "message": "Imports",
+    "description": "The label for category Imports in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Intégrations": {
+    "message": "Intégrations",
+    "description": "The label for category Intégrations in sidebar mySidebar"
   }
 }
