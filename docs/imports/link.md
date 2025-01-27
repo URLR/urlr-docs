@@ -1,8 +1,8 @@
 ---
-slug: imports/import-lien
+slug: imports/lien
 ---
 
-# Réaliser un import de liens par fichier
+# Import par fichier
 
 Afin de réduire des liens en masse, nous proposons un système d'import par fichier.
 

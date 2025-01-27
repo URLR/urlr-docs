@@ -1,8 +1,8 @@
 ---
-slug: custom-domain/config-custom-domain
+slug: custom-domain/configuration
 ---
 
-# Setting up a custom domain
+# Domain configuration
 
 Using a custom domain to shorten your links improves your brand image by sharing links that are easily identifiable by your users.
 

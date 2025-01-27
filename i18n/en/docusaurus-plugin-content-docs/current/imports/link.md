@@ -1,8 +1,8 @@
 ---
-slug: import/file-import
+slug: imports/link
 ---
 
-# Importing links by file
+# Import by file
 
 In order to reduce mass links, we propose a system of import by file.
 

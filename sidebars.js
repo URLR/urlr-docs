@@ -20,14 +20,22 @@ const sidebars = {
       type: 'category',
       label: 'Domaines personnalisés', 
       items: [
-        'custom-domain/config-custom-domain', 
+        {
+          type: 'doc',
+          id: 'custom-domain/config',
+          label: 'Configuration'
+        }
       ],
     },
     {
       type: 'category',
       label: 'Imports', 
       items: [
-        'import/import-link', 
+        {
+          type: 'doc',
+          id: 'imports/link',
+          label: 'Lien'
+        }
       ],
     },
     {

@@ -12,7 +12,7 @@
     "description": "The label for category Imports in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Intégrations": {
-    "message": "Intégrations",
+    "message": "Integrations",
     "description": "The label for category Intégrations in sidebar mySidebar"
   }
 }
