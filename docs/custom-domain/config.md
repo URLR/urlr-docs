@@ -1,8 +1,8 @@
 ---
-slug: domaine-personnalise/config-domaine-personnalise
+slug: domaine-personnalise/configuration
 ---
 
-# Configurer un domaine personnalisé
+# Configuration d'un domaine personnalisé
 
 Utiliser un domaine personnalisé pour réduire vos liens permet d'améliorer votre image de marque en partageant des liens facilement identifiables par vos utilisateurs.
 

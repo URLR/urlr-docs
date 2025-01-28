@@ -12,7 +12,19 @@
     "description": "The label for category Imports in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Intégrations": {
-    "message": "Intégrations",
+    "message": "Integrations",
     "description": "The label for category Intégrations in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.doc.Configuration": {
+    "message": "Configuration",
+    "description": "The label for the doc item Configuration in sidebar mySidebar, linking to the doc custom-domain/config"
+  },
+  "sidebar.mySidebar.doc.Liens": {
+    "message": "Links",
+    "description": "The label for the doc item Liens in sidebar mySidebar, linking to the doc imports/link"
+  },
+  "sidebar.mySidebar.doc.Webhooks": {
+    "message": "Webhooks",
+    "description": "The label for the doc item Webhooks in sidebar mySidebar, linking to the doc integrations/webhooks"
   }
 }
