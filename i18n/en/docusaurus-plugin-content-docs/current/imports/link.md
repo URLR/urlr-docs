@@ -1,5 +1,5 @@
 ---
-slug: imports/link
+slug: imports/links
 ---
 
 # Import links by file
