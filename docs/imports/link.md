@@ -2,7 +2,7 @@
 slug: imports/lien
 ---
 
-# Import par fichier
+# Import de liens par fichier
 
 Afin de réduire des liens en masse, nous proposons un système d'import par fichier.
 

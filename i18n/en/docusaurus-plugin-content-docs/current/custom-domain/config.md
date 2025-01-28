@@ -2,7 +2,8 @@
 slug: custom-domain/configuration
 ---
 
-# Domain configuration
+# Custom domain configuration
+
 
 Using a custom domain to shorten your links improves your brand image by sharing links that are easily identifiable by your users.
 

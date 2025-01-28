@@ -2,7 +2,7 @@
 slug: imports/link
 ---
 
-# Import by file
+# Import links by file
 
 In order to reduce mass links, we propose a system of import by file.
 

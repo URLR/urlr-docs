@@ -42,7 +42,11 @@ const sidebars = {
       type: 'category',
       label: 'Intégrations', 
       items: [
-        'integrations/webhooks', 
+        {
+          type: 'doc',
+          id: 'integrations/webhooks',
+          label: 'Webhooks'
+        }
       ],
     },
   ],

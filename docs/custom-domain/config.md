@@ -2,7 +2,7 @@
 slug: domaine-personnalise/configuration
 ---
 
-# Configuration du domaine
+# Configuration d'un domaine personnalisé
 
 Utiliser un domaine personnalisé pour réduire vos liens permet d'améliorer votre image de marque en partageant des liens facilement identifiables par vos utilisateurs.
 
