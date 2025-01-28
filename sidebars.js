@@ -22,7 +22,7 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'custom-domain/config',
+          id: 'custom-domains/config',
           label: 'Configuration'
         }
       ],
@@ -33,7 +33,7 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'imports/link',
+          id: 'imports/links',
           label: 'Liens'
         }
       ],

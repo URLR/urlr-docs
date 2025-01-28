@@ -1,5 +1,5 @@
 ---
-slug: integrations/webhooks
+slug: /integrations/webhooks
 ---
 
 # Webhooks

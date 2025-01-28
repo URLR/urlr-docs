@@ -17,11 +17,11 @@
   },
   "sidebar.mySidebar.doc.Configuration": {
     "message": "Configuration",
-    "description": "The label for the doc item Configuration in sidebar mySidebar, linking to the doc custom-domain/config"
+    "description": "The label for the doc item Configuration in sidebar mySidebar, linking to the doc custom-domains/config"
   },
   "sidebar.mySidebar.doc.Liens": {
     "message": "Links",
-    "description": "The label for the doc item Liens in sidebar mySidebar, linking to the doc imports/link"
+    "description": "The label for the doc item Liens in sidebar mySidebar, linking to the doc imports/links"
   },
   "sidebar.mySidebar.doc.Webhooks": {
     "message": "Webhooks",
