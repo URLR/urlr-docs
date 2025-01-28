@@ -1,5 +1,5 @@
 ---
-slug: domaine-personnalise/configuration
+slug: /domaines-personnalises/configuration
 ---
 
 # Configuration d'un domaine personnalisé

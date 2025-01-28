@@ -1,5 +1,5 @@
 ---
-slug: custom-domain/configuration
+slug: /custom-domains/configuration
 ---
 
 # Custom domain configuration
