@@ -34,7 +34,7 @@ const sidebars = {
         {
           type: 'doc',
           id: 'imports/link',
-          label: 'Lien'
+          label: 'Liens'
         }
       ],
     },
