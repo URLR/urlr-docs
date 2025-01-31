@@ -4,9 +4,9 @@ slug: /imports/liens
 
 # Import de liens par fichier
 
-Afin de réduire des liens en masse, nous proposons un système d'import par fichier.
+L'import de liens par fichier (au format CSV) vous permet d'ajouter plusieurs liens courts en une seule opération, facilitant ainsi l'intégration vos données ou la migration de ces dernières.
 
-Cette fonctionnalité est accessible depuis un **dossier préalablement créé**.
+Cette fonctionnalité est accessible depuis le lien "**Imports**" dans **barre latérale gauche**.
 
 ## Pré-requis
 
@@ -18,12 +18,23 @@ Ce fichier doit respecter certaines règles pour fonctionner correctement :
 - 10 000 liens maximum par fichier
 - Utiliser un des caractères délimiteur pris en charge
 
-## Caractère délimiteur
+:::info
+
+Si vous ne disposez pas de fichier CSV, rendez-vous dans la section "Migration" pour en obtenir un.
+:::
+
+## Importation
+
+Fichier
+
+### Caractère délimiteur
 
 Les colonnes d'un fichier CSV sont délimitées par un caractère délimiteur.
 Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez la possibilité de le spécifier dans l'interface :
 
 <img src="/img/docs/import/delimiter.png" width="500" />
+
+### Dossier
 
 ## Import avec options avancées
 
