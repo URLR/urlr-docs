@@ -4,7 +4,7 @@ slug: /migration/bitly
 
 # Migration depuis Bitly
 
-Ce guide vous explique comment migrer vos liens réduits depuis **Bitly** vers **URLR** et gérer statistiques existants en quelques étapes simples. Suivez les instructions ci-dessous pour effectuer cette migration.
+Ce guide vous explique comment migrer vos liens réduits depuis **Bitly** vers **URLR** et gérer les statistiques existants en quelques étapes simples. Suivez les instructions ci-dessous pour effectuer cette migration.
 
 
 
