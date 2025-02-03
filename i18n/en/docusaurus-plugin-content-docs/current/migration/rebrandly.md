@@ -35,7 +35,7 @@ These three pieces of information will be used to build the import file for URLR
 
 ### Importing your links into URLR
 
-Now that you have your CSV file, you can format it and import it into URLR. Help is available in [our documentation](imports/link.md).
+Now that you have your CSV file, you can format it and import it into URLR. Help is available in [our documentation](imports/links.md).
 
 ## Statistics
 
