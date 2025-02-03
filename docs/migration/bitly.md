@@ -4,7 +4,7 @@ slug: /migration/bitly
 
 # Migration depuis Bitly
 
-Ce guide vous explique comment migrer vos liens réduits depuis **Bitly** vers **URLR** et gérer les statistiques existants en quelques étapes simples. Suivez les instructions ci-dessous pour effectuer cette migration.
+Ce guide vous explique comment migrer vos liens réduits depuis **Bitly** vers **URLR** et gérer les statistiques existantes en quelques étapes simples. Suivez les instructions ci-dessous pour effectuer cette migration.
 
 
 
@@ -21,7 +21,7 @@ Vous pouvez uniquement importer des liens utilisant [**votre propre nom de domai
 
 :::
 
-## Lien
+## Liens
 
 ### Exporter vos liens depuis Bitly
 
@@ -75,7 +75,7 @@ C'est ces trois colonnes qui seront utilisées pour le fichier d'import sur URLR
 
 Maintenant que vous êtes en possession de votre fichier CSV, vous allez devoir le formater puis l'importer. Vous trouverez de l'aide via la [documentation](/docs/imports/links.md).
 
-## Statistique
+## Statistiques
 
 ### Exporter
 

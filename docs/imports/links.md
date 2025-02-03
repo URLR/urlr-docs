@@ -6,8 +6,6 @@ slug: /imports/liens
 
 L'import de liens par fichier (au format CSV) vous permet d'ajouter plusieurs liens courts en une seule opération, facilitant ainsi l'intégration vos données ou la migration de ces dernières.
 
-Cette fonctionnalité est accessible depuis le lien "**Imports**" dans **barre latérale gauche**.
-
 ## Pré-requis
 
 Ce fichier doit respecter certaines règles pour fonctionner correctement :
@@ -25,7 +23,7 @@ Si vous ne disposez pas de fichier CSV, rendez-vous dans la section "Migration" 
 
 ## Importation
 
-Fichier
+Rendez vous sur votre interface [URLR](https://urlr.me/app/?r=import_links) dans la section **Import** puis cliquez sur **Télécharger un fichier**.
 
 ### Caractère délimiteur
 
