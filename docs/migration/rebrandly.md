@@ -15,7 +15,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 :::warning
 
-Vous pouvez uniquement importer des liens utilisant [**votre propre nom de domaine**](https://support.rebrandly.com/hc/en-us/articles/224917167-What-is-a-Custom-Branded-Domain-Name) venant de Rebrandly.
+Vous pouvez uniquement importer des liens Bitly qui utilisent un [nom de domaine personnalisé](https://support.rebrandly.com/hc/en-us/articles/224917167-What-is-a-Custom-Branded-Domain-Name) venant de Rebrandly.
 
 :::
 
@@ -23,7 +23,7 @@ Vous pouvez uniquement importer des liens utilisant [**votre propre nom de domai
 
 ### Exporter vos liens depuis Rebrandly
 
-Rebrandly ne permet pas d'exporter vos liens courts depuis leur interface. Néanmoins, vous pouvez les exporter grâce à leur API. Pour ce faire vous devez suivre [leur documentation](https://developers.rebrandly.com/recipes/export-links-to-csv) à ce sujet.
+Rebrandly ne permet pas d'exporter vos liens courts depuis leur interface. Néanmoins, vous pouvez les exporter grâce à leur API. Pour ce faire, vous devez suivre [leur documentation](https://developers.rebrandly.com/recipes/export-links-to-csv) à ce sujet.
 
 Les informations à extraire avec l'API Rebrandly sont les suivantes :
 
@@ -39,5 +39,6 @@ Maintenant que vous êtes en possession de votre fichier CSV, vous allez devoir 
 
 ## Statistiques
 
-### Exporter
+### Exporter vos statistiques depuis Rebrandly
+
 Il n'est pas possible d'importer vos statistiques sur URLR néanmoins, nous vous conseillons d'**exporter vos statistiques** et de les **sauvegarder au cas où vous en ayez besoin**.

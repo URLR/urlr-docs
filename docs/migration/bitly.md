@@ -12,12 +12,12 @@ Ce guide vous explique comment migrer vos liens réduits depuis **Bitly** vers *
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
-- Un compte Bitly avec accès aux liens que vous souhaitez migrer (Forfait **Growth** ou plus requis).
+- Un compte Bitly avec accès aux liens que vous souhaitez migrer (Forfait **Growth** ou plus requis)
 - Un compte URLR (Forfait **Pro** ou plus requis)
 
 :::warning
 
-Vous pouvez uniquement importer des liens utilisant [**votre propre nom de domaine**](https://support.bitly.com/hc/en-us/articles/230558107-What-is-a-custom-domain) venant de Bitly.
+Vous pouvez uniquement importer des liens Bitly qui utilisent un [nom de domaine personnalisé](https://support.rebrandly.com/hc/en-us/articles/224917167-What-is-a-Custom-Branded-Domain-Name) venant de Bitly.
 
 :::
 
@@ -25,7 +25,7 @@ Vous pouvez uniquement importer des liens utilisant [**votre propre nom de domai
 
 ### Exporter vos liens depuis Bitly
 
-Pour exporter vos liens de Bitly, suivez ces étapes : 
+Pour exporter vos liens depuis Bitly, suivez ces étapes : 
 
 #### 1. Connectez-vous à votre compte Bitly
 
@@ -33,7 +33,7 @@ Accédez à [bitly.com](https://bitly.com) et connectez-vous à votre compte.
 
 #### 2. Exporter
 
-Pour exporter vos liens, nous aurons besoin d'un fichier CSV. Pour le télécharger vous avez deux choix : 
+L'export de vos liens Bitly va se faire sous la forme d'un fichier CSV. Pour le générer, vous avez deux possibilités :
 
 - [Exporter tous vos liens](#exporter-tous-vos-liens)
 - [Exporter un groupe de liens](#exporter-un-groupe-de-liens)
@@ -46,7 +46,7 @@ Vous pouvez exporter tous vos liens :
 - Cliquez sur **Export**
 - Entrez votre adresse email
 - Allez sur votre messagerie et ouvrez le mail envoyé par Bitly
-- Le fichier sera ensuite télécharger automatiquement
+- Le fichier sera ensuite téléchargé automatiquement
 
 Pour plus d'informations, rendez-vous sur la documentation de [bitly.com](https://support.bitly.com/hc/en-us/articles/230631767-How-do-I-export-link-data-for-a-select-group-of-links).
 
@@ -77,6 +77,6 @@ Maintenant que vous êtes en possession de votre fichier CSV, vous allez devoir 
 
 ## Statistiques
 
-### Exporter
+### Exporter vos statistiques depuis Bitly
 
 Il n'est pas possible d'importer vos statistiques sur URLR néanmoins, nous vous conseillons d'**exporter vos statistiques** et de les **sauvegarder au cas où vous en ayez besoin**.

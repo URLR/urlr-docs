@@ -4,18 +4,18 @@ slug: /migration/bitly
 
 # Migration from Bitly
 
-This guide explains how to migrate your reduced links from **Bitly** to **URLR** and manage existing statistics in just a few simple steps. Follow the instructions below to complete the migration.
+This guide explains how to migrate your shorts links from **Bitly** to **URLR** and manage existing statistics in just a few simple steps. Follow the instructions below to complete the migration.
 
 ## Prerequisites
 
 Before you begin, please make sure you have the following :
 
-- A Bitly account with access to the links you wish to migrate (Growth package or higher required).
-- A URLR account (Pro package or higher required).
+- A Bitly account with access to the links you wish to migrate (Growth package or higher required)
+- A URLR account (Pro package or higher required)
 
 :::warning
 
-You can only import links using [your own domain name](https://support.bitly.com/hc/en-us/articles/230558107-What-is-a-custom-domain) from Bitly.
+You can only import Bitly links that use a [custom domain name](https://support.rebrandly.com/hc/en-us/articles/224917167-What-is-a-Custom-Branded-Domain-Name) from Bitly.
 
 :::
 
@@ -25,13 +25,13 @@ You can only import links using [your own domain name](https://support.bitly.com
 
 To export your links from Bitly, follow these steps :
 
-#### 1. Log in to your Bitly account
+#### 1. Log in to your Bitly account
 
 Go to [bitly.com](https://bitly.com) and log in to your account.
 
-#### 2. Export
+#### 2. Export
 
-To export your links, we'll need a CSV file. To download it, you have two choices :
+Your Bitly links will be exported in the form of a CSV file. To generate it, you have two options :
 
 - [Export all your links](#export-all-your-links)
 - [Export a link group](#export-a-group-of-links)
@@ -75,6 +75,6 @@ Now that you've got your CSV file, you'll need to format and import it. You'll f
 
 ### Statistics
 
-#### Export
+#### Export your statistics from Bitly
 
 It is not possible to import your statistics into URLR. However, we advise you to **export your statistics and save them in case you need them**.
