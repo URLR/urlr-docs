@@ -33,8 +33,8 @@ Go to [bitly.com](https://bitly.com) and log in to your account.
 
 To export your links, we'll need a CSV file. To download it, you have two choices :
 
-- [Export all your links]()
-- [Export a link group]()
+- [Export all your links](#export-all-your-links)
+- [Export a link group](#export-a-group-of-links)
 
 ##### Export all your links
 
