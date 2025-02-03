@@ -26,5 +26,17 @@
   "sidebar.mySidebar.doc.Webhooks": {
     "message": "Webhooks",
     "description": "The label for the doc item Webhooks in sidebar mySidebar, linking to the doc integrations/webhooks"
+  },
+  "sidebar.mySidebar.category.Migration": {
+    "message": "Migration",
+    "description": "The label for category Migration in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.doc.Bitly": {
+    "message": "Bitly",
+    "description": "The label for the doc item Bitly in sidebar mySidebar, linking to the doc migration/bitly"
+  },
+  "sidebar.mySidebar.doc.Rebrandly": {
+    "message": "Rebrandly",
+    "description": "The label for the doc item Rebrandly in sidebar mySidebar, linking to the doc migration/rebrandly"
   }
 }

@@ -4,9 +4,7 @@ slug: /imports/liens
 
 # Import de liens par fichier
 
-Afin de réduire des liens en masse, nous proposons un système d'import par fichier.
-
-Cette fonctionnalité est accessible depuis un **dossier préalablement créé**.
+L'import de liens par fichier (au format CSV) vous permet d'ajouter plusieurs liens courts en une seule opération, facilitant ainsi l'intégration vos données ou la migration de ces dernières.
 
 ## Pré-requis
 
@@ -18,12 +16,25 @@ Ce fichier doit respecter certaines règles pour fonctionner correctement :
 - 10 000 liens maximum par fichier
 - Utiliser un des caractères délimiteur pris en charge
 
-## Caractère délimiteur
+:::info
+
+Si vous ne disposez pas de fichier CSV, rendez-vous dans la section "Migration" pour en obtenir un.
+:::
+
+## Importation
+
+Rendez vous sur votre interface [URLR](https://urlr.me/app/?r=import_links) dans la section **Import** puis cliquez sur **Télécharger un fichier**.
+
+### Caractère délimiteur
 
 Les colonnes d'un fichier CSV sont délimitées par un caractère délimiteur.
 Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez la possibilité de le spécifier dans l'interface :
 
 <img src="/img/docs/import/delimiter.png" width="500" />
+
+### Dossier
+
+Vous pouvez déterminer dans quel dossier seront importés vos liens.
 
 ## Import avec options avancées
 

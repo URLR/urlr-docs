@@ -49,6 +49,22 @@ const sidebars = {
         }
       ],
     },
+    {
+      type: 'category',
+      label: 'Migration', 
+      items: [
+        {
+          type: 'doc',
+          id: 'migration/bitly',
+          label: 'Bitly'
+        },
+        {
+          type: 'doc',
+          id: 'migration/rebrandly',
+          label: 'Rebrandly'
+        }
+      ],
+    },
   ],
 };
 module.exports = sidebars;
