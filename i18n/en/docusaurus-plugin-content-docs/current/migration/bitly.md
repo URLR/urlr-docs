@@ -59,7 +59,7 @@ You can also select a group of links for export:
 
 For more information, please visit the [bitly.com documentation](https://support.bitly.com/hc/en-us/articles/230631767-How-do-I-export-link-data-for-a-select-group-of-links).
 
-##### CSV file
+##### CSV file
 
 Next, you should have the CSV file. Three columns are important in this file:
 
