@@ -71,7 +71,7 @@ These three columns will be used for the URLR import file.
 
 ### Import your links into URLR
 
-Now that you've got your CSV file, you'll need to format and import it. You'll find help in the [documentation](/en/docs/imports/links.md).
+Now that you've got your CSV file, you'll need to format and import it. You'll find help in the [documentation](imports/links.md).
 
 ### Statistics
 

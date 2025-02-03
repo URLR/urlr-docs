@@ -73,7 +73,7 @@ C'est ces trois colonnes qui seront utilisées pour le fichier d'import sur URLR
 
 ### Importer vos liens dans URLR
 
-Maintenant que vous êtes en possession de votre fichier CSV, vous allez devoir le formater puis l'importer. Vous trouverez de l'aide via la [documentation](/docs/imports/links.md).
+Maintenant que vous êtes en possession de votre fichier CSV, vous allez devoir le formater puis l'importer. Vous trouverez de l'aide via la [documentation](imports/links.md).
 
 ## Statistiques
 

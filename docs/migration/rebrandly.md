@@ -35,10 +35,9 @@ C'est ces trois informations qui seront utilisées pour construire le fichier d'
 
 ### Importer vos liens dans URLR
 
-Maintenant que vous êtes en possession de votre fichier CSV, vous allez devoir le formater puis l'importer. Vous trouverez de l'aide via la [documentation](/docs/imports/links.md).
+Maintenant que vous êtes en possession de votre fichier CSV, vous allez devoir le formater puis l'importer. Vous trouverez de l'aide via la [documentation](imports/links.md).
 
 ## Statistiques
 
 ### Exporter
-
 Il n'est pas possible d'importer vos statistiques sur URLR néanmoins, nous vous conseillons d'**exporter vos statistiques** et de les **sauvegarder au cas où vous en ayez besoin**.
