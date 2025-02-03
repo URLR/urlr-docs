@@ -4,7 +4,7 @@ slug: /migration/bitly
 
 # Migration from Bitly
 
-This guide explains how to migrate your shorts links from **Bitly** to **URLR** and manage existing statistics in just a few simple steps. Follow the instructions below to complete the migration.
+This guide explains how to migrate your short links from **Bitly** to **URLR** and manage existing statistics in just a few simple steps. Follow the instructions below to complete the migration.
 
 ## Prerequisites
 
@@ -71,10 +71,10 @@ These three columns will be used for the URLR import file.
 
 ### Import your links into URLR
 
-Now that you've got your CSV file, you'll need to format and import it. You'll find help in the [documentation](imports/links.md).
+Now that you have your CSV file, you can format it and import it into URLR. Help is available in [our documentation](imports/link.md).
 
-### Statistics
+## Statistics
 
-#### Export your statistics from Bitly
+### Export your statistics from Bitly
 
 It is not possible to import your statistics into URLR. However, we advise you to **export your statistics and save them in case you need them**.

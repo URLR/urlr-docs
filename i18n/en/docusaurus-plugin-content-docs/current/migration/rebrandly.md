@@ -4,7 +4,7 @@ slug: /migration/rebrandly
 
 # Migration from Rebrandly
 
-This guide explains how to migrate your shorts links from **Rebrandly** to **URLR** and manage existing statistics in just a few simple steps. Follow the instructions below to complete the migration.
+This guide explains how to migrate your short links from **Rebrandly** to **URLR** and manage existing statistics in just a few simple steps. Follow the instructions below to complete the migration.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ These three pieces of information will be used to build the import file for URLR
 
 ### Importing your links into URLR
 
-Now that you've got your CSV file, you'll need to format and import it. Help is available in the [documentation](imports/links.md).
+Now that you have your CSV file, you can format it and import it into URLR. Help is available in [our documentation](imports/link.md).
 
 ## Statistics
 
