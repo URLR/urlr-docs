@@ -34,6 +34,8 @@ Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez 
 
 ### Dossier
 
+Vous pouvez déterminer dans quel dossier seront importés vos liens.
+
 ## Import avec options avancées
 
 Il est également possible de spécifier des options aux liens dans ce fichier comme vous pourriez le faire sur l'interface (mot de passe, code personnalisé, ...).
