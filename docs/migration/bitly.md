@@ -42,24 +42,24 @@ Pour exporter vos liens, nous aurons besoin d'un fichier CSV. Pour le téléchar
 
 Vous pouvez exporter tous vos liens : 
 
-- Cliquez sur **"Liens"** dans la barre latérale gauche
+- Cliquez sur **Liens** dans la barre latérale gauche
 - Cliquez sur **Export**
 - Entrez votre adresse email
 - Allez sur votre messagerie et ouvrez le mail envoyé par Bitly
 - Le fichier sera ensuite télécharger automatiquement
 
-Pour plus d'informations, rendez-vous sur la documentation de [bitly.com](#https://support.bitly.com/hc/en-us/articles/230631767-How-do-I-export-link-data-for-a-select-group-of-links).
+Pour plus d'informations, rendez-vous sur la documentation de [bitly.com](https://support.bitly.com/hc/en-us/articles/230631767-How-do-I-export-link-data-for-a-select-group-of-links).
 
 ##### Exporter un groupe de liens
 
 Vous pouvez aussi sélectionner un groupe de liens pour les exporter : 
 
-- Cliquez sur **"Liens"** dans la barre latérale gauche
+- Cliquez sur **Liens** dans la barre latérale gauche
 - Sélectionnez vos liens
 - Cliquez sur **Export**
 - Le téléchargement se lancera automatiquement
 
-Pour plus d'informations, rendez-vous sur la documentation de [bitly.com](#https://support.bitly.com/hc/en-us/articles/230631767-How-do-I-export-link-data-for-a-select-group-of-links).
+Pour plus d'informations, rendez-vous sur la documentation de [bitly.com](https://support.bitly.com/hc/en-us/articles/230631767-How-do-I-export-link-data-for-a-select-group-of-links).
 
 ##### Fichier CSV
 
