@@ -65,6 +65,17 @@ const sidebars = {
         }
       ],
     },
+    {
+      type: 'category',
+      label: 'Sécurité', 
+      items: [
+        {
+          type: 'doc',
+          id: 'security/sso',
+          label: 'Authentification SSO'
+        },
+      ],
+    },
   ],
 };
 module.exports = sidebars;

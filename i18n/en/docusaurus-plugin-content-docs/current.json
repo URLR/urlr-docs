@@ -38,5 +38,13 @@
   "sidebar.mySidebar.doc.Rebrandly": {
     "message": "Rebrandly",
     "description": "The label for the doc item Rebrandly in sidebar mySidebar, linking to the doc migration/rebrandly"
+  },
+  "sidebar.mySidebar.category.Security": {
+    "message": "Security",
+    "description": "The label for category Security in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.doc.Authentification SSO": {
+    "message": "SSO Authentification",
+    "description": "The label for the doc item Authentification SSO in sidebar mySidebar, linking to the doc security/sso"
   }
 }
