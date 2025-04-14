@@ -4,9 +4,7 @@ slug: /imports/links
 
 # Import links by file
 
-In order to reduce mass links, we propose a system of import by file.
-
-This functionality is accessible from a **previously created folder**.
+Link import by file (in CSV format) lets you add several short links in a single operation, facilitating data integration or migration.
 
 ## Prerequisites
 
