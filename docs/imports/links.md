@@ -16,7 +16,7 @@ Ce fichier doit respecter certaines règles pour fonctionner correctement :
 - 10 000 liens maximum par fichier
 - Utiliser un des caractères délimiteur pris en charge
 
-## Importation
+## Import
 
 Rendez vous sur votre interface [URLR](https://urlr.me/app/?r=import_links) dans la section **Import** puis cliquez sur **Télécharger un fichier**.
 
