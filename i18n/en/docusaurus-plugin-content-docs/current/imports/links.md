@@ -18,7 +18,7 @@ This file must respect certain rules to work correctly:
 
 ## Import
 
-Go to your [URLR](https://urlr.me/app/?r=import_links) interface in the **Import** section, then click on **Download a file**.
+Go to your [URLR](https://urlr.me/app/?r=import_links) interface in the **Import** section, then click on **Upload a file**.
 
 ## Delimiter character
 
