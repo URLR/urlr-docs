@@ -16,11 +16,6 @@ Ce fichier doit respecter certaines règles pour fonctionner correctement :
 - 10 000 liens maximum par fichier
 - Utiliser un des caractères délimiteur pris en charge
 
-:::info
-
-Si vous ne disposez pas de fichier CSV, rendez-vous dans la section "Migration" pour en obtenir un.
-:::
-
 ## Importation
 
 Rendez vous sur votre interface [URLR](https://urlr.me/app/?r=import_links) dans la section **Import** puis cliquez sur **Télécharger un fichier**.

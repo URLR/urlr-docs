@@ -18,6 +18,10 @@ This file must respect certain rules to work correctly:
 - 10 000 links maximum per file
 - Use one of the supported delimiter characters
 
+## Import
+
+Go to your [URLR](https://urlr.me/app/?r=import_links) interface in the **Import** section, then click on **Download a file**.
+
 ## Delimiter character
 
 The columns in a CSV file are delimited by a delimiter character.
