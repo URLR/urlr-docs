@@ -40,6 +40,7 @@ These options must be specified in the columns following the links and respect t
 | password | 3 | string |
 | custom code | 4 | string |
 | label | 5 | string |
+| tags | 6 | comma-separated list of up to 3 tag IDs |
 
 ## Sample file
 

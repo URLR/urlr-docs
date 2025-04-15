@@ -44,6 +44,7 @@ Ces options doivent être spécifiées dans les colonnes suivant les liens et re
 | mot de passe | 3 | string |
 | code personnalisé | 4 | string |
 | label | 5 | string |
+| tags | 6 | liste de jusqu’à 3 identifiants de tags, séparés par des virgules |
 
 ## Fichier d'exemple
 
