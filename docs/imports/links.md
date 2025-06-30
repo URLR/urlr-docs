@@ -68,6 +68,8 @@ Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez 
 | delete_after_expiration | boolean (`true` ou `false`)                 | Supprimer le lien après expiration                                         |
 | delete_at               | ISO-8601                                    | Date de suppression programmée                                             |
 
+Le fichier CSV **doit contenir une ligne d'en-tête** mentionnant les champs supportés, dans **n'importe quel ordre**. Seuls les champs présents dans l'en-tête seront traités.
+
 Vous trouverez un exemple de fichier CSV plus bas dans la page.
 
 ### Fichiers d'exemple

@@ -68,6 +68,7 @@ The most common delimiter is the comma. If your file uses another one, you have 
 | delete_after_expiration | boolean (`true` or `false`)                 | Whether to delete the link after expiration                                 |
 | delete_at               | ISO-8601                                    | Scheduled deletion date                                                     |
 
+The CSV file **must contain a header line** listing the fields supported, in **any order**. Only fields present in the header will be processed.
 
 You can find a CSV sample file further down the page.
 
