@@ -4,7 +4,7 @@ slug: /imports/links
 
 # Import links by file
 
-Link import by file lets you add several short links in a single operation, facilitating data integration or migration.
+File-based link import allows you to create or update multiple short links in a single operation, making it easier to integrate or migrate your data.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ This file must respect certain rules to work correctly:
 
 :::info
 
-The JSON format allows you to take full advantage of all available features for link creation, whereas the CSV format is limited to more basic functionalities.
+The JSON format allows you to take full advantage of all available features for link creation or editing, whereas the CSV format is limited to more basic functionalities.
 
 :::
 
@@ -52,21 +52,20 @@ The most common delimiter is the comma. If your file uses another one, you have 
 
 <img src="/img/docs/import/delimiter.png" width="500" />
 
-#### Supported Fields
-
-| Field                   | Format                                      | Description                                                                 |
-|-------------------------|---------------------------------------------|-----------------------------------------------------------------------------|
-| url                     | string                                      | URL to shorten                                                              |
-| code                    | string                                      | Custom short code (slug) for the link                                       |
-| domain                  | string (domain name)                        | Custom domain to use                                                        |
-| folder_id               | string (UUID)                               | ID of the folder where the link will be stored                              |
-| label                   | string                                      | Label to identify the link                                                  |
-| password                | string                                      | Password to protect access to the link                                      |
-| tags                    | string (UUIDs)                              | List of tag IDs, separated by commas (maximum 3)                            |
-| expired_url             | string (URL)                                | URL to redirect to after the link expires                                   |
-| expired_at              | ISO-8601 (e.g. `2027-12-31T23:59:59+00:00`) | Expiration date of the link                                                 |
-| delete_after_expiration | boolean (`true` or `false`)                 | Whether to delete the link after expiration                                 |
-| delete_at               | ISO-8601                                    | Scheduled deletion date                                                     |
+| Field                     | Format                                       | Description                                  | Required (create / update) |
+| ------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------- |
+| link\_id                  | string (UUID)                                | Only used when updating an existing link     | ❌ / ✅                      |
+| url                       | string                                       | URL to shorten                               | ✅ / ❌                      |
+| code                      | string                                       | Custom code (slug) for the short link        | ❌ / ❌                      |
+| domain                    | string (host)                         | Custom domain to use                         | ❌ / ❌                      |
+| folder\_id                | string (UUID)                                | ID of the folder to store the link in        | ❌ / ❌                      |
+| label                     | string                                       | Label to identify the link                   | ❌ / ❌                      |
+| password                  | string                                       | Password required to access the link         | ❌ / ❌                      |
+| tags                      | string (UUID)                                | List of tag IDs, comma-separated (maximum 3) | ❌ / ❌                      |
+| expired\_url              | string (URL)                                 | Redirect URL after expiration                | ❌ / ❌                      |
+| expired\_at               | ISO-8601 (e.g., `2027-12-31T23:59:59+00:00`) | Link expiration date                         | ❌ / ❌                      |
+| delete\_after\_expiration | boolean (`true` or `false`)                  | Delete the link after it expires             | ❌ / ❌                      |
+| delete\_at                | ISO-8601                                     | Scheduled deletion date                      | ❌ / ❌                      |
 
 The CSV file **must contain a header line** listing the fields supported, in **any order**. Only fields present in the header will be processed.
 

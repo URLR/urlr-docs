@@ -4,7 +4,7 @@ slug: /imports/liens
 
 # Import de liens par fichier
 
-L'import de liens par fichier vous permet d'ajouter plusieurs liens courts en une seule opération, facilitant ainsi l'intégration vos données ou la migration de ces dernières.
+L'import de liens par fichier vous permet de créer ou de modifier plusieurs liens courts en une seule opération, simplifiant ainsi l'intégration ou la migration de vos données.
 
 ## Pré-requis
 
@@ -18,7 +18,7 @@ Ce fichier doit respecter certaines règles pour fonctionner correctement :
 
 :::info
 
-Le format JSON permet de tirer parti de l’ensemble des fonctionnalités disponibles pour la création de liens, tandis que le format CSV se limite aux fonctionnalités les plus basiques.
+Le format JSON permet de tirer parti de l’ensemble des fonctionnalités disponibles pour la création ou la modification de liens, tandis que le format CSV se limite aux fonctionnalités les plus basiques.
 
 :::
 
@@ -54,19 +54,20 @@ Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez 
 
 #### Champs supportés
 
-| Champ                   | Format                                      | Description                                                                |
-|-------------------------|---------------------------------------------|----------------------------------------------------------------------------|
-| url                     | string                                      | URL à raccourcir                                                           |
-| code                    | string                                      | Code personnalisé (slug) du lien                                           |
-| domain                  | string (nom de domaine)                     | Domaine personnalisé à utiliser                                            |
-| folder_id               | string (UUID)                               | Identifiant du dossier où stocker le lien                                  |
-| label                   | string                                      | Libellé pour identifier le lien                                            |
-| password                | string                                      | Mot de passe pour accéder au lien                                          |
-| tags                    | string (UUID)                               | Liste d’identifiants de tags, séparés par des virgules (maximum 3)         |
-| expired_url             | string (URL)                                | URL de redirection après expiration                                        |
-| expired_at              | ISO-8601 (ex: `2027-12-31T23:59:59+00:00`)  | Date d'expiration du lien                                                  |
-| delete_after_expiration | boolean (`true` ou `false`)                 | Supprimer le lien après expiration                                         |
-| delete_at               | ISO-8601                                    | Date de suppression programmée                                             |
+| Champ                     | Format                                     | Description                                                        | Requis (création / modification) |
+| ------------------------- | ------------------------------------------ | ------------------------------------------------------------------ | -------------------------------- |
+| link\_id                  | string (UUID)                              | Seulement pour modification d'un lien existant                     | ❌ / ✅                            |
+| url                       | string                                     | URL à raccourcir                                                   | ✅ / ❌      |
+| code                      | string                                     | Code personnalisé (slug) du lien                                   | ❌ / ❌                            |
+| domain                    | string (hôte)                    | Domaine personnalisé à utiliser                                    | ❌ / ❌                            |
+| folder\_id                | string (UUID)                              | Identifiant du dossier où stocker le lien                          | ❌ / ❌                            |
+| label                     | string                                     | Libellé pour identifier le lien                                    | ❌ / ❌                            |
+| password                  | string                                     | Mot de passe pour accéder au lien                                  | ❌ / ❌                            |
+| tags                      | string (UUID)                              | Liste d’identifiants de tags, séparés par des virgules (maximum 3) | ❌ / ❌                            |
+| expired\_url              | string (URL)                               | URL de redirection après expiration                                | ❌ / ❌                            |
+| expired\_at               | ISO-8601 (ex: `2027-12-31T23:59:59+00:00`) | Date d'expiration du lien                                          | ❌ / ❌                            |
+| delete\_after\_expiration | boolean (`true` ou `false`)                | Supprimer le lien après expiration                                 | ❌ / ❌                            |
+| delete\_at                | ISO-8601                                   | Date de suppression programmée                                     | ❌ / ❌                            |
 
 Le fichier CSV **doit contenir une ligne d'en-tête** mentionnant les champs supportés, dans **n'importe quel ordre**. Seuls les champs présents dans l'en-tête seront traités.
 
