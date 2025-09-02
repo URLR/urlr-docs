@@ -103,7 +103,7 @@ To be able to shorten links using your domain, you need to assign it to one (or 
 
 ## Using the domain to shorten a link
 
-Now that everything is in place, all you need to do is **select the folder** associated with your domain when you want to shorten a link from the homepage.
+Now that everything is in place, all you need to do is **select the folder** associated with your domain when you want to shorten a link.
 
 <img src="/img/docs/custom-domain/custom-domain-shortening-en.png" width="1000" />
 

@@ -102,7 +102,7 @@ Afin de pouvoir réduire des liens en utilisant votre domaine, il est nécessair
 
 ## Utiliser le domaine pour réduire un lien
 
-Maintenant que tout est en place, il vous suffit de **sélectionner le dossier** associé à votre domaine lorsque vous souhaitez réduire un lien depuis la page d'accueil.
+Maintenant que tout est en place, il vous suffit de **sélectionner le dossier** associé à votre domaine lorsque vous souhaitez réduire un lien.
 
 <img src="/img/docs/custom-domain/custom-domain-shortening.png" width="1000" />
 
