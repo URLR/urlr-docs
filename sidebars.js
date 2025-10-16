@@ -15,32 +15,49 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   mySidebar: [
-    'intro', 
+    'intro',
     {
       type: 'category',
-      label: 'Domaines personnalisés', 
+      label: 'Espace de travail',
       items: [
         {
-          type: 'doc',
-          id: 'custom-domains/config',
-          label: 'Configuration'
-        }
+          type: 'category',
+          label: 'Utilisateurs',
+          items: [
+            {
+              type: 'doc',
+              id: 'users/roles',
+              label: 'Rôles',
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Domaines personnalisés',
+          items: [
+            {
+              type: 'doc',
+              id: 'custom-domains/config',
+              label: 'Configuration',
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Imports',
+          items: [
+            {
+              type: 'doc',
+              id: 'imports/links',
+              label: 'Liens'
+            }
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Imports', 
-      items: [
-        {
-          type: 'doc',
-          id: 'imports/links',
-          label: 'Liens'
-        }
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Intégrations', 
+      label: 'Intégrations',
       items: [
         {
           type: 'doc',
@@ -51,7 +68,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Migration', 
+      label: 'Migration',
       items: [
         {
           type: 'doc',
@@ -67,7 +84,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Sécurité', 
+      label: 'Sécurité',
       items: [
         {
           type: 'doc',

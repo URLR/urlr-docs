@@ -39,12 +39,24 @@
     "message": "Rebrandly",
     "description": "The label for the doc item Rebrandly in sidebar mySidebar, linking to the doc migration/rebrandly"
   },
-  "sidebar.mySidebar.category.Security": {
-    "message": "Security",
-    "description": "The label for category Security in sidebar mySidebar"
-  },
   "sidebar.mySidebar.doc.Authentification SSO": {
     "message": "SSO Authentification",
     "description": "The label for the doc item Authentification SSO in sidebar mySidebar, linking to the doc security/sso"
+  },
+  "sidebar.mySidebar.category.Espace de travail": {
+    "message": "Workspaces",
+    "description": "The label for category Espace de travail in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Utilisateurs": {
+    "message": "Users",
+    "description": "The label for category Utilisateurs in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Sécurité": {
+    "message": "Security",
+    "description": "The label for category Sécurité in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.doc.Rôles": {
+    "message": "Roles",
+    "description": "The label for the doc item Rôles in sidebar mySidebar, linking to the doc users/roles"
   }
 }
