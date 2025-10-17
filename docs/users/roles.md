@@ -1,5 +1,5 @@
 ---
-slug: /users/roles
+slug: /utilisateurs/roles
 ---
 
 # Rôles utilisateurs
