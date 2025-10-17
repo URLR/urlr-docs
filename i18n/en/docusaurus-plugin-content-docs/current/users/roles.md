@@ -5,15 +5,13 @@ slug: /users/roles
 
 URLR users can have different roles, each with specific permissions. The main permissions are listed below.
 
-
-
-| Role          | Create Workspaces | Manage Users | Change Owner | Create/Edit Folders, Tags | Create/Edit Links | View |
-|----------------|-------------------|--------------|--------------|---------------------------|-------------------|------|
-| Owner          | ✅                | ✅           | ✅           | ✅                        | ✅                | ✅   |
-| Administrator  | ❌                | ✅           | ❌           | ✅                        | ✅                | ✅   |
-| Editor         | ❌                | ❌           | ❌           | ✅                        | ✅                | ✅   |
-| Contributor    | ❌                | ❌           | ❌           | ❌                        | ✅                | ✅   |
-| Viewer         | ❌                | ❌           | ❌           | ❌                        | ❌                | ✅   |
-
+| Feature                          | Owner       | Administrator | Editor   | Contributor | Reader  |
+|----------------------------------|-------------|---------------|----------|-------------|---------|
+| Create workspaces                | ✅          | ❌            | ❌       | ❌          | ❌      |
+| Manage users                     | ✅          | ✅            | ❌       | ❌          | ❌      |
+| Change owner                     | ✅          | ❌            | ❌       | ❌          | ❌      |
+| Create/edit folders, tags        | ✅          | ✅            | ✅       | ❌          | ❌      |
+| Create/edit links                | ✅          | ✅            | ✅       | ✅          | ❌      |
+| View                             | ✅          | ✅            | ✅       | ✅          | ✅      |
 
 ✅ : Permission granted ❌ Permission not granted

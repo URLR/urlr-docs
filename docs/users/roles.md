@@ -6,13 +6,13 @@ slug: /users/roles
 
 Les utilisateurs URLR peuvent avoir différents rôles, chacun avec des permissions spécifiques. Les principales sont indiquées ci-dessous.
 
-| Rôle          | Créer des espaces de travail | Gérer les utilisateurs | Changer le propriétaire | Créer/éditer dossiers, tags | Créer/éditer des liens | Visualisation |
-|----------------|-------------------------------|-------------------|--------------------------|-----------------------------|----------------------------------|---------------------|
-| Propriétaire   | ✅                            | ✅                | ✅                       | ✅                          | ✅                               | ✅                  |
-| Administrateur | ❌                            | ✅                | ❌                       | ✅                          | ✅                               | ✅                  |
-| Éditeur        | ❌                            | ❌                | ❌                       | ✅                          | ✅                               | ✅                  |
-| Contributeur   | ❌                            | ❌                | ❌                       | ❌                          | ✅                               | ✅                  |
-| Lecteur        | ❌                            | ❌                | ❌                       | ❌                          | ❌                               | ✅                  |
-
+| Fonctionnalité                     | Propriétaire | Administrateur | Éditeur | Contributeur | Lecteur |
+|------------------------------------|--------------|----------------|---------|--------------|---------|
+| Créer des espaces de travail       | ✅           | ❌             | ❌      | ❌           | ❌      |
+| Gérer les utilisateurs             | ✅           | ✅             | ❌      | ❌           | ❌      |
+| Changer le propriétaire             | ✅           | ❌             | ❌      | ❌           | ❌      |
+| Créer/éditer dossiers, tags        | ✅           | ✅             | ✅      | ❌           | ❌      |
+| Créer/éditer des liens             | ✅           | ✅             | ✅      | ✅           | ❌      |
+| Visualisation                      | ✅           | ✅             | ✅      | ✅           | ✅      |
 
 ✅ : Permission accordée ❌ : Permission non accordée
