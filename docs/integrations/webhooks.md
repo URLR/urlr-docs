@@ -34,9 +34,8 @@ Requête POST sur votre URL configurée sur URLR.
     "link": {
         "id": "9759d03f-eaec-4ca4-a5a2-105ced01fbd8",
         "code": "yBPhx",
-        "team": 5,
+        "label": "Mon lien",
         "team_id": "2c196f79-0db8-421a-9230-623c8956bdbf",
-        "folder": 10,
         "folder_id": "469cf8aa-5d9b-4bcb-bafc-8a2576b6f504",
     },
     "country": 'null',
@@ -44,7 +43,6 @@ Requête POST sur votre URL configurée sur URLR.
     "city": null,
     "system": "GNU/Linux",
     "browser": "Firefox",
-    "isBot": false,
     "referer": null,
     "timestamp": 1697398126
 }
