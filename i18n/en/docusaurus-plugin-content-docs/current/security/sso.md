@@ -22,6 +22,5 @@ We support all types of connections supported by Keycloak, especially:
 
 - OpenID Connect (OIDC)
 - SAML 2.0
-<!-- - LDAP/Active Directory -->
 
 This flexibility allows us to adapt to the specific needs of each enterprise.

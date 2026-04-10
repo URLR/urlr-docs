@@ -11,8 +11,11 @@ const config = {
   url: 'https://docs.urlr.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
   organizationName: 'urlr', // Usually your GitHub org/user name.
   projectName: 'urlr-docs', // Usually your repo name.
 
@@ -58,6 +61,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'URLR',
         logo: {
