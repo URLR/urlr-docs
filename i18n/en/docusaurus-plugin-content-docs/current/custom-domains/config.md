@@ -23,6 +23,7 @@ The custom domain you choose must be specifically reserved for the use of URLR. 
 - **l.**
 - **go.**
 - **r.**
+- **link.**
 
 Throughout this guide, we will assume that our website is **mon-domaine.fr**.
 
@@ -65,9 +66,17 @@ You can find out how to carry out this operation with some domain providers belo
 
 Go to the **DNS zone** section of your domain and click on the **Add an entry** button.
 
-If you're not setting up a subdomain, simply leave the first field blank.
+If you're not setting up a subdomain, but a root domain, simply leave the first field blank.
 
 <img src="/img/docs/custom-domain/dns-cname-ovh.png" width="500" />
+
+### Cloudflare
+
+:::info
+
+On Cloudflare, make sure to disable the proxy to switch to "DNS Only" mode.
+
+:::
 
 ### Alternative method
 

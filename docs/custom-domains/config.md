@@ -22,6 +22,7 @@ Le domaine personnalisé que vous choisissez doit être spécifiquement réserv�
 - **l.**
 - **go.**
 - **r.**
+- **link.**
 
 Tout au long de ce guide, nous allons considérer que notre site web est **mon-domaine.fr**.
 
@@ -64,9 +65,17 @@ Vous trouverez comment effectuer cette opération avec quelques fournisseurs de 
 
 Rendez-vous dans la section **Zone DNS** de votre domaine et cliquez sur le bouton **Ajouter une entrée**.
 
-Si vous ne configurez pas un sous-domaine, laissez simplement le premier champ vide.
+Si vous ne configurez pas un sous-domaine, mais un domaine racine, laissez simplement le premier champ vide.
 
 <img src="/img/docs/custom-domain/dns-cname-ovh.png" width="500" />
+
+### Cloudflare
+
+:::info
+
+Sur Cloudflare, veillez à désactiver le proxy afin de passer en mode "DNS Only".
+
+:::
 
 ### Méthode alternative
 
