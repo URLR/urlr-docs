@@ -42,9 +42,13 @@ const config = {
       {
         specs: [
           {
-            spec: "https://urlr.me/openapi.yaml",
-            route: "/api-reference/v1/",
+            spec: "https://urlr.me/openapi-v2.yaml",
+            route: "/api-reference/v2/",
           },
+          {
+            spec: "https://urlr.me/openapi-v1.yaml",
+            route: "/api-reference/v1/",
+          }
         ],
         theme: {
           primaryColor: "#48aefa",
@@ -82,6 +86,10 @@ const config = {
             label: 'API Reference',
             position: 'left',
             items: [
+              {
+                label: 'V2',
+                href: '/api-reference/v2/',
+              },
               {
                 label: 'V1',
                 href: '/api-reference/v1/',

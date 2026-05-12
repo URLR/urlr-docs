@@ -54,10 +54,10 @@ The most common delimiter is the comma. If your file uses another one, you have 
 
 | Field                     | Format                                       | Description                                  | Required (create / update) |
 | ------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------- |
-| link\_id                  | string (UUID)                                | Only used when updating an existing link     | ❌ / ✅                      |
+| id                  | string (UUID)                                | Only used when updating an existing link     | ❌ / ✅                      |
 | url                       | string                                       | URL to shorten                               | ✅ / ❌                      |
-| code                      | string                                       | Custom code (slug) for the short link        | ❌ / ❌                      |
 | domain                    | string (host)                         | Custom domain to use                         | ❌ / ❌                      |
+| code                      | string                                       | Custom code (slug) for the short link        | ❌ / ❌                      |
 | folder\_id                | string (UUID)                                | ID of the folder to store the link in        | ❌ / ❌                      |
 | label                     | string                                       | Label to identify the link                   | ❌ / ❌                      |
 | password                  | string                                       | Password required to access the link         | ❌ / ❌                      |

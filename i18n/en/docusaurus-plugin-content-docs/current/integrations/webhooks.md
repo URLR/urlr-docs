@@ -35,7 +35,7 @@ POST request to your URL set on URLR.
         "id": "9759d03f-eaec-4ca4-a5a2-105ced01fbd8",
         "code": "yBPhx",
         "label": "My link",
-        "team_id": "2c196f79-0db8-421a-9230-623c8956bdbf",
+        "workspace_id": "2c196f79-0db8-421a-9230-623c8956bdbf",
         "folder_id": "469cf8aa-5d9b-4bcb-bafc-8a2576b6f504",
     },
     "is_qrcode": false,

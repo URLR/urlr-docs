@@ -56,10 +56,10 @@ Le plus courant est la virgule. Si votre fichier en utilise un autre, vous avez 
 
 | Champ                     | Format                                     | Description                                                        | Requis (création / modification) |
 | ------------------------- | ------------------------------------------ | ------------------------------------------------------------------ | -------------------------------- |
-| link\_id                  | string (UUID)                              | Seulement pour modification d'un lien existant                     | ❌ / ✅                            |
+| id                  | string (UUID)                              | Seulement pour modification d'un lien existant                     | ❌ / ✅                            |
 | url                       | string                                     | URL à raccourcir                                                   | ✅ / ❌      |
-| code                      | string                                     | Code personnalisé (slug) du lien                                   | ❌ / ❌                            |
 | domain                    | string (hôte)                    | Domaine personnalisé à utiliser                                    | ❌ / ❌                            |
+| code                      | string                                     | Code personnalisé (slug) du lien                                   | ❌ / ❌                            |
 | folder\_id                | string (UUID)                              | Identifiant du dossier où stocker le lien                          | ❌ / ❌                            |
 | label                     | string                                     | Libellé pour identifier le lien                                    | ❌ / ❌                            |
 | password                  | string                                     | Mot de passe pour accéder au lien                                  | ❌ / ❌                            |
