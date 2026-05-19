@@ -61,6 +61,11 @@ const sidebars = {
       items: [
         {
           type: 'doc',
+          id: 'integrations/api',
+          label: 'API'
+        },
+        {
+          type: 'doc',
           id: 'integrations/webhooks',
           label: 'Webhooks'
         }
